@@ -1,0 +1,30 @@
+.header{
+    background-color: var(--color-primary);
+    color: #fff;
+    padding: .4rem 0;
+    margin-bottom: 1rem;
+}
+
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__title{
+    font-size: 2em;
+    font-weight: 400;
+}
+
+.header__input-search{
+    padding: .5em 1em;
+    /*padding: .5em 3em;*/
+    border-radius: 5px;
+    outline: none;
+    border: solid 1px var(--color-primary);
+}
+
+.header__input-search:focus{
+    border-color: violet;
+}
+
