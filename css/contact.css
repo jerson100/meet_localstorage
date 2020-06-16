@@ -1,6 +1,10 @@
 .contact{
     background-color:var(--color-primary);
     padding: 1rem 0;
+    background-image: url('../img/image\ 4.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .contact__inner{
